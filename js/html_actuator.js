@@ -66,25 +66,25 @@ HTMLActuator.prototype.addTile = function (tile) {
   // Change the tile text here
   /* ZYQ */
   if (tile.value == 2) 
-      inner.textContent = "彭";//tile.value;
+      inner.textContent = "小";//tile.value;
   else if (tile.value == 4)
       inner.textContent = "丽";//tile.value;
   else if (tile.value == 8)
-      inner.textContent = "我";//tile.value;
+      inner.textContent = "丽";//tile.value;
   else if (tile.value == 16)
-      inner.textContent = "喜";//tile.value;
+      inner.textContent = "祝";//tile.value;
   else if (tile.value == 32)
-      inner.textContent = "欢";//tile.value;
-  else if (tile.value == 64)
       inner.textContent = "你";//tile.value;
+  else if (tile.value == 64)
+      inner.textContent = "天";//tile.value;
   else if (tile.value == 128)
-      inner.textContent = "愿";//tile.value;
+      inner.textContent = "使";//tile.value;
   else if (tile.value == 256)
-      inner.textContent = "意";//tile.value;
+      inner.textContent = "节";//tile.value;
   else if (tile.value == 512)
-      inner.textContent = "吗";//tile.value;
+      inner.textContent = "快";//tile.value;
   else if (tile.value == 1024)
-      inner.textContent = "吗";//tile.value;
+      inner.textContent = "乐";//tile.value;
   else if (tile.value == 2048)
       inner.textContent = "😊";//tile.value;
   /* ZYQ */

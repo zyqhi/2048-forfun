@@ -68,9 +68,9 @@ HTMLActuator.prototype.addTile = function (tile) {
   if (tile.value == 2) 
       inner.textContent = "小";//tile.value;
   else if (tile.value == 4)
-      inner.textContent = "丽";//tile.value;
+      inner.textContent = "猫";//tile.value;
   else if (tile.value == 8)
-      inner.textContent = "丽";//tile.value;
+      inner.textContent = "咪";//tile.value;
   else if (tile.value == 16)
       inner.textContent = "祝";//tile.value;
   else if (tile.value == 32)

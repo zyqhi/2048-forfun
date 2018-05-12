@@ -175,6 +175,7 @@ GameManager.prototype.move = function (direction) {
           self.score += merged.value;
 
           // The mighty 2048 tile
+          // ZYQ: score for won
           if (merged.value === 2048) self.won = true;
         } else {
           self.moveTile(tile, positions.farthest);
